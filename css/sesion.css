@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #0b1b3f, #09132a);
+}
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;       
+    top: 0;                
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    
+    padding: 10px;
+    height: 90px;
+}
+header h1{
+    color: rgb(110, 173, 110);
+    margin-right: 50px;
+}
+header img{
+    height:60px;
+    width: auto;
+    object-fit: contain;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40%;
+
+}
+.escudo{
+    height: 100px;
+    margin-top: 10px;
+}
+header nav{
+    display: flex;
+    gap: 20px;
+    transition: all 0.3s ease;
+}
+header nav a{
+    color: rgb(133, 131, 130);
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: rgb(5, 5, 5);
+  cursor: pointer;
+}
+header nav a:hover{
+    color: #1150e2;
+    height: 20px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a, .dropbtn {
+  text-decoration: none;
+  color: rgb(133, 131, 130);
+  font-size: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.menu a, .dropbtn:hover{
+  color: #1150e2;
+}
+.Container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 8%;
+}
+
+.contacto{
+    background-image: url(../Img/clouds\ _\ sky\ view\ from\ a\ flight2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    width: 400px;
+    height: 490px;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    text-align: center;
+    
+     
+}
+.contacto h1{
+    margin-top: 20%;
+}
+.contacto h3{
+    margin-top: 0;
+}
+.enviar{
+    background-color: white;
+    width: 450px;
+    height: 490px;
+    text-align: center;
+    border-radius: 0  10px 10px 0;
+   
+    
+}
+.titulo{
+    font-size: 30px;
+    margin-right: 0%;
+    margin-top: 5px;
+    
+}
+.titulo1{
+    margin-bottom: 35px;
+}
+.titulo2{
+    margin-bottom: 10px;
+}
+.container{
+    display: 0;
+    padding: 15px;
+}
+.input1{
+    display: grid;
+    padding: 10px;
+    
+}
+.form_input1{
+    width: 100%;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+}
+.form_input2{
+    width: 100%;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+    
+}
+.form_input3{
+    width: 100%;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+}
+.form_input4{
+    width: 100%;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+}
+.form_input2::placeholder{
+    translate:0px -10px;
+}
+.form_input3::placeholder{
+    translate:0px -10px;
+}
+.form_input4::placeholder{
+    translate:0px -10px;
+}
+.form_submit{
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    color: white;
+    background-image: url(../Img/Enviar.jpg);
+    border: none;
+    outline: none;
+}
+.error-mensaje{
+    color: red;
+
+}
+ footer{
+    
+    width: 100%;
+    height: 500px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: relative;
+  }
+ .foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    gap: 10%;
+    margin-top: 40px;
+    
+  
+  }
+  .foot ul,li{
+    list-style: none;
+    cursor: pointer;
+    
+  }
+  .foot ul li:hover{
+    color: #1150e2;
+
+  }
+  .footlogo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    
+} 
+.th5{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 40px;
+  left: 45%;
+}
+
