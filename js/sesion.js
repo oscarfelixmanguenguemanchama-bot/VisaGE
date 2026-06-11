@@ -98,3 +98,23 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+// Simulamos los datos del JSON
+const usuario = {
+  nombre: "Oscarfelix",
+  apellido: "Mangue",
+  correo: "felixmangue@gmail.com",
+  contrasena: "12345"
+};
+
+// Rellenar los campos del formulario
+document.getElementById("nombre").value = usuario.nombre;
+document.getElementById("apellido").value = usuario.apellido;
+document.getElementById("email").value = usuario.correo;
+document.getElementById("contrasena").value = usuario.contrasena;
+
+// Enviar el formulario automáticamente (opcional)
+document.getElementById("forla").addEventListener("submit", function(e) {
+  e.preventDefault(); // evita recargar la página
+  // Aquí podrías validar los datos o redirigir
+  window.location.href = "../"; // redirige a la página principal
+});

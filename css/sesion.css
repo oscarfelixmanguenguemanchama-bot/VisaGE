@@ -185,7 +185,7 @@ header nav a:hover{
 .form_input4::placeholder{
     translate:0px -10px;
 }
-.form_submit{
+button .for_submit{
     padding: 10px;
     border-radius: 5px;
     width: 30%;
